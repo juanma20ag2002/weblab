@@ -1,0 +1,55 @@
+header{
+  min-height: 70px;
+  display: flex;
+  background-image: url(grafico\ superior.png);
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  width: 100%;
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+.logo img{
+  height: 50px;
+  margin-right: 12px;
+  margin-left: 12px;
+
+}
+nav a{
+
+  font-weight: 600;
+  padding: 10px;
+}
+nav a:hover{
+  color: rgb(255, 255, 255);
+}
+.exel{
+  display: flex;
+  padding: 30px;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  flex-direction: column;
+
+}
+.exel .img{
+  height: 100px;
+  width: 100px;
+}
+.docs{
+  display: flex;
+  padding: 30px;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  flex-direction: column;
+
+}
+.docs .imagen{
+  width: 100px;
+  height: 100px;
+}
+@media(max-width: 400px){
+  header{flex-direction: column;}
+  nav{padding: 10px 0px;}
+}
